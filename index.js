@@ -8,7 +8,7 @@ let bg = `rgb(255, 255, 255)`
 document.onmousemove = handleMouseMove;
 document.onmousedown = mouseClicked;
 document.onmouseup = mouseUnClicked;
-document.querySelector('#hiddenText').style.color = document.querySelector('body').style.backgroundColor;
+document.querySelector('#hiddenText').style.color = "white";
 
 
 function handleMouseMove(event) {
